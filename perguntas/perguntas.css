@@ -23,7 +23,7 @@
     background-color: var(--bg-color);
 }
 
-.nvs {
+.rp {
     background-color: var(--bg2-color);
     color: white;
     padding: 100px;
@@ -33,18 +33,21 @@
     text-align: center;
 }
 
-.nvs h1 {
-    position: relative;
-    top: -50px;
-    margin-top: 0;
-    font-size: 24px;
+.bola{
+width: 20px;
+height: 20px;
+background-color: var(--bg2-color);
+border-radius: 50%;
+margin-right: 10px;
 }
 
-.nvs p {
-    font-size: 18px;
+.pergunta{
+width: 200px;
+height: 20px;
+background-color: var(--bg2-color);
 }
 
-.b_facil, .b_medio, .b_dificil{
+.r1,.r2,.r3,.r4{
     background-color: var(--botao);
     color: var(--letra);
     text-decoration: none;
@@ -61,13 +64,8 @@
     position: relative;
     top: 50px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     gap: 10px;
 }
 
-
-.caveira{
-    position: absolute;
-    align-items: center;
-    width: 250px; height: auto;
-}
