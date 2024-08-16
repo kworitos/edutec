@@ -6,6 +6,10 @@
     -webkit-font-smoothing: antialiased;
 }
 
+ @font-face {
+        font-family: titulo;
+        src: url(Ahsing-Regular.otf);
+}
 :root{
     --bg-color: #CFE0C3;
     --bg2-color: #0B2027;
@@ -37,7 +41,8 @@
     position: relative;
     top: -50px;
     margin-top: 0;
-    font-size: 24px;
+    font-size: 45px;
+    font-family: titulo;
 }
 
 .bvd p {
